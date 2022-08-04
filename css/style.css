@@ -1,0 +1,975 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+
+
+/* -----------------------------
+          Common css end
+----------------------------------*/
+
+/* -----------------------------
+          Nav part start
+----------------------------------*/
+
+.navbar{
+    padding: 0 0 !important;
+}
+
+nav .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37.36px; 
+    color: #244D4D !important;
+    padding: 0 0 !important;
+    margin-top: 30px;
+}
+
+nav .navbar-nav{
+    margin: 0 auto;
+}
+
+nav .nav-item{
+    margin-right: 74px;
+    margin-top: 41px;
+}
+
+nav .nav-item .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5px;
+    color: #242424 !important;
+    padding: 0 0 !important;
+}
+
+nav .icon{
+    margin-top: 41px;
+}
+
+nav .icon i{
+    margin-right: 44px;
+}
+
+input {
+	width: 50px;
+}
+
+.nav-scroll{
+    background: #FFFFFF;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 10px 0;
+    animation: nav 1s;
+}
+
+@keyframes nav{
+    from{
+        top:-100px;
+    }to{
+        top:0px;
+    }
+}
+
+.nav-scroll .navbar-brand {
+	margin-top: -5px;
+}
+
+.nav-scroll .nav-item {
+	margin-top: 17px;
+    padding-bottom: 15px;
+}
+
+.nav-scroll .icon {
+	margin-top: 17px;
+	padding-bottom: 15px;
+}
+
+/* -----------------------------
+          Nav part end
+----------------------------------*/
+
+/* -----------------------------
+        Banner part start
+----------------------------------*/
+#banner-part{
+    margin-top: 31px;
+    position: relative;
+}
+
+#banner-part .banner-slider .item{
+    margin-bottom: 15px;
+    position: relative;
+    overflow: visible !important;
+}
+
+#banner-part .banner-slider .item .img{
+    text-align: right;
+   
+}
+
+#banner-part .banner-slider .item .img img{
+    width: 80%;
+}
+
+#banner-part .banner-slider .item .details{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(50px) !important;
+    position: absolute;
+    top: 103px;
+    left: -80px;
+    
+}
+#banner-part .banner-slider .item .details h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #244D4D;
+    width: 372px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-left: 17px;
+}
+
+#banner-part .banner-slider .item .details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #5F5F64;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 17px;
+    padding-bottom: 45px;
+    padding-left: 7px;
+}
+
+#banner-part .dot-img img{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
+/* .details-w {
+    width: 1170px !important;
+} */
+
+.slick-slide img {
+	display: inline-block;
+}
+
+#banner-part .prev {
+	position: absolute;
+	top: 38%;
+	right: -50px;
+}
+
+#banner-part .next {
+	position: absolute;
+	top: 43%;
+	right: -50px;
+}
+
+#banner-part .bottom-button{
+    width: 124px;
+    height: 124px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(50px);
+    position: absolute;
+    bottom: -12px;
+    right: 88px;
+    line-height: 124px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#banner-part .bottom-button i{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+/* -----------------------------
+          Banner part end
+----------------------------------*/
+
+/* -----------------------------
+          Brand part start
+----------------------------------*/
+
+#brand-part{
+    margin-top: 68px;
+    width: 100%;
+    background: #F4F6F6;
+    margin-bottom: 138px;
+    padding: 55px 0;
+}
+
+#brand-part h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height:25.44px;
+    color: #031745;
+    text-align: center;
+}
+
+#brand-part .brand-slider{
+    position: relative;
+}
+
+#brand-part .brand-slider .brand-logo{
+    display: inline-block;
+    margin: 45px 35px 0 65px;
+}
+
+
+
+#brand-part .prev {
+	position: absolute;
+	top: 69%;
+	left: -17px;
+	font-size: 18px;
+    display: none !important;
+}
+
+#brand-part .next {
+	position: absolute;
+	top: 69%;
+	right: -49px;
+	font-size: 18px;
+    display: none !important;
+}
+
+/* -----------------------------
+          Brand part end
+----------------------------------*/
+
+/* -----------------------------
+          Offer part start
+----------------------------------*/
+
+#offer-part{
+    margin-bottom: 109px;
+}
+
+#offer-part .offer-bg{
+    /* background: #F4F6F6; */
+    padding: 0 0 !important;
+}
+
+#offer-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#offer-part .left-item{
+    width: 30%;
+}
+
+#offer-part .left-item h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #244D4D;
+}
+
+#offer-part .left-item p{
+    color:#5F5F64;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 233px;
+}
+
+#offer-part .item{
+    width: 22%;
+    padding-left: 20px;
+}
+
+#offer-part .gap{
+    padding-left: 45px;
+}
+
+#offer-part .gap-two{
+    padding-left: 62px;
+}
+
+#offer-part .item img{
+    margin-top: 4px;
+}
+
+#offer-part .item h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 30px;
+    color: #3D3D3F;
+}
+
+#offer-part .item p{
+    color:#5F5F64;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+/* -----------------------------
+          Offer part end
+----------------------------------*/
+
+/* -----------------------------
+         About part Start
+----------------------------------*/
+
+#about-part .row{
+    padding-right: 0 !important;
+}
+
+#about-part{
+    margin-bottom: 100px;
+}
+
+#about-part .details-part .title h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #244D4D;
+    margin-bottom: 20px;
+}
+
+#about-part .details-part .title p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #64717C;
+    width: 450px;
+}
+
+#about-part .details-part .service .top .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-part .details-part .service .top .main .item{
+  width: 48%;
+  margin-top: 82px;
+}
+
+#about-part .details-part .service .top .main .item h4{
+font-size: 58px;
+font-weight: 700;
+line-height: 76px;
+color: #244D4D;
+}
+
+#about-part .details-part .service .top .main .item h4 span{
+    font-size: 24px;
+font-weight: 700;
+line-height: 30.53px;
+color: #244D4D;
+}
+
+#about-part .details-part .service .top .main .item p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #64717C;
+margin-top: 13px;
+width: 273px;
+padding-right: 7px;
+}
+
+#about-part .gallery-part .main-button{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#about-part .gallery-part .button{
+    width: 165px;
+    height: 54px;
+    background: #F4F6F6;
+    box-shadow: 0px 100px 80px rgba(36, 77, 77, 0.1), 0px 64.8148px 46.8519px rgba(36, 77, 77, 0.0759259), 0px 38.5185px 25.4815px rgba(36, 77, 77, 0.0607407), 0px 20px 13px rgba(36, 77, 77, 0.05), 0px 8.14815px 6.51852px rgba(36, 77, 77, 0.0392593), 0px 1.85185px 3.14815px rgba(36, 77, 77, 0.0240741);
+    border-radius: 5px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+    color: #5F5F64;
+    text-align: center;
+    padding-top: 13px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+#about-part .gallery-part .img-part{
+    margin-top: 185px;
+}
+
+#about-part .gallery-part .img-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-part .gallery-part .img-part .main .left-img{
+    width: 49%;
+    margin-top: 60px;
+    margin-left: 23px;
+}
+
+#about-part .gallery-part .img-part .main .left-img img{
+    margin-top: 20px; 
+}
+
+#about-part .gallery-part .img-part .main .right-img{
+    width: 49%;
+    margin-left: 23px;
+}
+
+#about-part .gallery-part .img-part .main .right-img img{
+    margin-top: 10px; 
+    margin-bottom: 22px;
+
+}
+
+/* -----------------------------
+          About part end
+----------------------------------*/
+
+/* -----------------------------
+        Products part end
+----------------------------------*/
+
+#product-part{
+    margin-bottom: 230px;
+}
+
+#product-part .product-title .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-part .product-title .main h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 71.85px;
+    color: #244D4D;
+    /* margin-left: 45px; */
+    margin-left: 53px;
+}
+
+#product-part .product-title .main .icon-part{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 60px; */
+    margin-right: 50px;
+}
+
+#product-part .product-title .main .icon-part span{
+    font-family: 'Open Sans', sans-serif;
+    color:#3D3D3F;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5px;
+    margin-top: 33px;
+    
+}
+
+#product-part .product-title .main .icon-part .arrow{
+    width: 34px;
+    height: 19px;
+    background: #E9E9E9;
+    margin-left: 32px;
+    margin-top: 37px;
+    position: relative;
+}
+
+#product-part .product-title .main .icon-part .arrow i{
+    position: absolute;
+    top: 2px;
+    left: -4px;
+    color: #244D4D;
+}
+
+.mixitup-control-active {
+    color: #393939 !important;
+}
+
+#product-part .controls{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#product-part .button{
+    display: inline-block;
+   margin: 0 32px;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 22.9px;
+   color:  #A9A7A6;
+   transition: .4s;
+   background: transparent;
+   border: none;
+}
+
+#product-part .button:hover{
+    color: #3D3D3F;
+}
+
+
+#product-part .product-demo{
+    padding-right:45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-part .product-demo {
+    margin-top: 0px !important;
+}
+
+#product-part .product-demo .item{
+    width: 312px;
+    height: 305px;
+    background: rgba(36, 77, 77, 0.05);
+    position: relative;
+    /* margin-left: 45px; */
+    margin-left: 53px;
+    margin-top: 170px;
+
+}
+
+#product-part .product-demo .item h6{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.07px;
+    color: #3D3D3F;
+    text-align: center;
+    padding-top: 43px;
+}
+
+#product-part .product-demo .item .price{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#product-part .product-demo .item .price span{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 19.08px;
+    color: #3D3D3F;
+    margin-right: 34px
+}
+
+#product-part .product-demo .item .price .discount{
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.17px;
+    color:  #A9A7A6;
+    margin-right: 54px;
+}
+
+#product-part .product-demo .item .img{
+    text-align: center;
+}
+
+#product-part .product-demo .item .img img{
+    margin-top: 64px;
+}
+
+#product-part .product-demo .item .img .img-two{
+    margin-top: 45px;
+}
+
+#product-part .product-demo .item .img .img-three{
+    margin-top: 38px;
+}
+
+#product-part .product-demo .item .icon-img img {
+	position: absolute;
+	top: -15px;
+	right: 15px;
+}
+
+
+#product-part .product-demo {
+    margin-top: 156px;
+}
+
+#product-part .product-demo .item{
+    width: 312px;
+    height: 305px;
+    background: rgba(36, 77, 77, 0.05);
+    position: relative;
+}
+
+#product-part .product-demo .item h6{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.07px;
+    color: #3D3D3F;
+    text-align: center;
+    padding-top: 43px;
+}
+
+#product-part .product-demo .item .price{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#product-part .product-demo .item .price span{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 19.08px;
+    color: #3D3D3F;
+    margin-right: 34px
+}
+
+#product-part .product-demo.item .price .discount{
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.17px;
+    color:  #A9A7A6;
+    margin-right: 54px;
+}
+
+#product-part .product-demo .item .img{
+    text-align: center;
+}
+
+#product-part .product-demo .item .img img{
+    margin-top: 25px;
+}
+
+#product-part .product-demo .item .img .img-two{
+    margin-top: 29px;
+}
+
+#product-part .product-demo .item .img .img-three{
+    margin-top: 44px;
+}
+
+#product-part .product-demo .bottom-img .item .icon-img img {
+	position: absolute;
+	top: -15px;
+	right: 15px;
+}
+
+/* -----------------------------
+        Products part end
+----------------------------------*/
+
+/* -----------------------------
+        Client part start
+----------------------------------*/
+
+#client-part{
+    margin-bottom: 100px;
+    
+}
+
+#client-part .client-bg{
+    background: #F4F6F6;
+    padding: 115px 0;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+#client-part .client-title{
+    text-align: center;
+}
+
+#client-part .client-title h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #244D4D;
+   margin: 0 auto;
+    width: 532px;
+}
+
+#client-part .client-title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #3A4F65;
+    width: 444px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+#client-part .client-slider .item{
+    padding: 0 165px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+   position: relative;
+}
+
+#client-part .client-slider .item .details{
+    margin-left: 118px;
+   
+}
+
+#client-part .client-slider .item .details h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37.36px;
+    color: #244D4D;
+    letter-spacing: -0.03em;
+    margin-top: 10px;
+}
+
+#client-part .client-slider .item .details p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height:40px;
+    color: #5E7388;
+    font-style: italic;
+    margin-top: 38px;
+    margin-bottom: 45px;
+}
+
+#client-part .client-slider .item .details span{
+    font-size: 22px;
+    font-weight: 400;
+    line-height:27.98px;
+    color: #152137;
+    
+}
+
+#client-part .client-slider .item .details .clr-change{
+    font-size: 14px;
+    font-weight: 400;
+    line-height:17.81px;
+    color: #647383;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+#client-part .client-slider .item .star-icon{
+    width: 68px;
+    height: 68px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 40px -14px rgba(171, 211, 227, 0.49);
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+	bottom: 280px;
+    left: 131px;
+}
+
+#client-part .prev{
+    width: 61px;
+    height: 61px;
+    background: #FFFFFF;
+    border: 1px solid #DDEDF4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 61px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 53%;
+    z-index: 3;
+}
+
+#client-part .next{
+    width: 61px;
+    height: 61px;
+    background: #FFFFFF;
+    border: 1px solid #DDEDF4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 61px;
+    font-size: 20px;
+    position: absolute;
+   bottom: 0px;
+    left: 60%;
+}
+
+#client-part .mask-img img {
+	position: absolute;
+	top: -120px;
+	left: -118px;
+	width: 30%;
+}
+
+#client-part .icon-img .img-two {
+	position: absolute;
+	top: 195px;
+	right: 103px;
+}
+
+#client-part .icon-img .img-three {
+	position: absolute;
+	bottom: 159px;
+	left: 75px;
+}
+
+/* -----------------------------
+        Client part end
+----------------------------------*/
+
+/* -----------------------------
+        footer part start
+----------------------------------*/
+
+#footer-part{
+    background: #244D4D;
+    position: relative;
+}
+
+#footer-part .text{
+    padding-top: 130px;
+}
+
+#footer-part .text p{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+    color: #FFFFFF;
+    width: 577px;
+    margin-left: 20px;
+}
+
+#footer-part .footer-button {
+    padding-top: 130px;
+    display: flex;
+}
+
+#footer-part .footer-button .button{
+    width: 200px;
+    height: 60px;
+    background: #3A5F5F;
+    border-radius: 30px;
+    text-align: center;
+line-height: 60px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #FCFBFF;
+    margin-left: 20px;
+    margin-top: 35px;
+    transition: .4s;
+}
+
+#footer-part .footer-button  .button:hover{
+    background: #FCFBFF;
+    color: #244D4D;
+}
+
+#footer-part .footer-details{
+    margin-top: 150px;
+    position: relative;
+}
+
+#footer-part .footer-details::after{
+    width: 100%;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -90px;
+    left: 0;
+    content: "";
+    opacity: 0.1;
+}
+
+#footer-part .footer-details .item{
+    padding-bottom: 106px;
+}
+
+#footer-part .footer-details .item h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 37.36px;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+    margin-left: 20px;
+}
+
+#footer-part .footer-details .item p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #EEEEEE;
+    width: 230px;
+    margin-left: 20px;
+}
+
+#footer-part .footer-details .item i{
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+#footer-part .footer-details .item ul li{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    color: #EEEEEE;
+    margin-bottom: 15px;
+}
+
+#footer-part .footer-details .item ul h6{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.62px;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+#footer-part .top-button {
+	width: 70px;
+	height: 70px;
+	background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(50px);
+	position: absolute;
+	bottom: 100px;
+	right: 60px;
+	line-height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#footer-part .top-button i{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+/* -----------------------------
+        footer part end
+----------------------------------*/
